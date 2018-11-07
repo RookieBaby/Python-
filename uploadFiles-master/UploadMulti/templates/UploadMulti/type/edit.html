@@ -1,0 +1,71 @@
+{% extends "UploadMulti/base.html" %}
+
+{% block photos_content %}
+    <h3>
+        类别编辑管理
+    </h3>
+    <form id="edit-profile" action="{% url 'UploadMulti:UploadMulti_typeupdate' user.ChannelID %}" class="form-horizontal" method="post"  target="the_iframe" onSubmit="return beforeSubmit(this);">
+        {% csrf_token %}
+        <fieldset>
+            <legend>编辑类别信息</legend>
+            <div class="control-group">
+                <label class="control-label" for="input01">ChannelID：</label>
+                <div class="controls">
+                    <input type="text" name="ChannelID"  class="input-xlarge" id="input01" value="{{ user.ChannelID }}" disabled />
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01">类别：</label>
+                <div class="controls">
+                    <input type="text" name="ChannelName" class="input-xlarge" id="i1" value="{{ user.ChannelName }}" />
+                     <span class="error" id="s1" style="color:red;" >{{ error_msg }}</span>
+
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="input01">code：</label>
+                <div class="controls">
+                    <input type="text" name="ChannelCode" class="input-xlarge" id="i2" value="{{ user.ChannelCode }}" disabled/>
+                    <span class="error" id="s2" style="color:red;" ></span>
+
+                </div>
+            </div>
+            <div class="form-actions">
+                <button type="submit" id="s3" class="btn btn-primary" onclick="javascript:return confirm('确认修改？'); setFocus() ">保存</button> <button type="reset" class="btn">重置</button>
+            </div>
+        </fieldset>
+           <!--<iframe id="the_iframe" name="the_iframe" style="display:none;"></iframe>-->
+    </form>
+
+<script src="/static/js/jquery-3.2.0.min.js"></script>
+<script language="JavaScript" type="text/javascript">
+    {# 当光标移出input输入框后，   #}
+    $('#i1').on('blur',function () {
+        $('#s1').text('');
+        {# 获得input框内的输入内容       #}
+        var ChannelName = $(this).val();
+        $.ajax({
+            url:'/UploadMulti/typeupdate/',
+            type:'POST',
+            data:{ChannelNames:ChannelName},
+            success:function (data) {
+                console.log(data);
+                if (data.code){
+                    // 类别名称已存在！
+                    $("#s1").text(data.msg);
+                }
+            }
+        })
+    });
+</script>
+<script type="text/javascript">
+function beforeSubmit(form){
+if(form.ChannelName.value==''){
+alert('类别名称不能为空！');
+form.ChannelName.focus();
+return false;
+}
+return true;
+}
+</script>
+{% endblock %}

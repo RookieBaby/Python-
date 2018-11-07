@@ -1,0 +1,97 @@
+{% extends 'UploadMulti/base.html' %}
+
+{% load static %}
+{% load staticfiles %}
+{% block photos_content %}
+<div style="margin-bottom: 20px;">
+    <button type="button" class="btn btn-primary js-upload-photos">
+        <span class="glyphicon glyphicon-cloud-upload"></span> 上传资源
+    </button>
+    <input id="fileupload" type="file" name="file" multiple
+           style="display: none;"
+           data-url="{% url 'UploadMulti:progress_bar_upload' %}"
+           data-form-data='{"csrfmiddlewaretoken": "{{ csrf_token }}"}'>
+</div>
+
+<form action="{% url 'UploadMulti:progress_bar_upload' %}" method="post" enctype="multipart/form-data">
+         {% csrf_token %}
+      <div id="dd">
+  <select name="types">
+      {% for dds in dd %}
+      <option selected="selected" value ="{{ dds }}" disabled >--请选择-- </option>
+      {% endfor %}
+      {% for code in codes %}
+            <option value ="{{ code }}" >{{ code }}</option>
+      {% endfor %}
+  </select>
+      <!--<input id="money" type="text" name="types" onmouseleave="checkInput()" oninput="changeBtnable()" placeholder=">    请输入code值" value="{{ codes }}"  onkeyup="value=value.replace(/[^\d{1,}\.\d{1,}|\d{1,}]/g,'')"/>-->
+      <input   class="btn btn-primary " id="btn"  type="submit" value="提交"/>
+     </div>
+ </form>
+
+<table id="gallery" class="table table-responsive  table-bordered">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>类别</th>
+            <th>名称</th>
+            <th>上传时间</th>
+            <th>操作</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        {% for photo in photos %}
+            <tr>
+                <td>{{ photo.id }}</td>
+                <td>{{ photo.codes }}</td>
+                <td>{{ photo.filename }}</td>
+                <td>{{ photo.uploaded_at|date:"Y-m-d H:i:s" }}</td>
+                <td width="30%">
+                    <!--<a href="javascript:if(confirm('确认删除吗?'))window.location='del.asp'">删除</a>-->
+                    <a href=" javascript:if(confirm('确认删除吗?'))window.location='{% url 'UploadMulti:type_del' photo.id %}'" class="view-link">删除</a>
+                </td>
+
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+    <span style="color:red;">{{ error_msg }}</span>
+    <div>{{ info }}</div>
+
+<div class="modal fade" id="modal-progress" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Uploading...</h4>
+            </div>
+            <div class="modal-body">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 0%;">0%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<h4>
+</h4>
+<script language="JavaScript" type="text/javascript">
+function changeBtnable(){
+    $("#btns").removeAttr("disabled");
+}
+function changeBtndisable(){
+    $("#btns").attr("disabled","true");
+}
+function checkInput(){
+    var text = $("#money").val();
+    if(text==null||text==""){
+        changeBtndisable();
+    }
+}
+ function submitForm(){
+    var form = document.getElementById("myform");
+    form.submit();
+
+}
+</script>
+{% endblock %}

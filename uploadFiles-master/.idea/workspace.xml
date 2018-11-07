@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef066159-4119-4a6e-af78-d0dfbde27c0e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../Functions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Common/a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Common/es_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Common/sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/FavoriteNews/GetTageWord.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/FavoriteNews/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/FavoriteNews/news_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/FavoriteNews/stopwords_cn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/FavoriteNews/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Test/answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Test/blockchain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Test/hash.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Test/serialization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Upload/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Upload/Base_files/logs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Upload/Base_files/logs.json.tar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Upload/Base_files/logs.json.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Upload/Base_files/logs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Upload/Base_files/msg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Upload/Base_files/msg.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Upload/Base_files/readInfo1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Upload/Common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Upload/Common/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Upload/Common/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Upload/db_save.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/Upload/file_unzip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/UploadApi/templates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/UploadApi/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/UploadApi/web/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/tutorial/introduce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/tutorial/snippets/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/tutorial/snippets/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Functions/tutorial/snippets/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewsProject/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../read.txt" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1967730382">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UploadOne/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-689">
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+      <find>\d+.\d+</find>
+      <find>\d+(\.\d+)</find>
+      <find>basic-upload</find>
+      <find>fileupload</find>
+      <find># for file2 in photoss:             #     pho = file2.split('.')[0]             #     for file1 in videos:             #         vid = file1.split('.')[0]</find>
+      <find>南庄子清真寺</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>index</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/myadmin/base.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/myadmin/urls.py" />
+        <option value="$USER_HOME$/project/django/leibie/myobject/settings.py" />
+        <option value="$USER_HOME$/project/django/leibie/myadmin/models.py" />
+        <option value="$USER_HOME$/project/django/leibie/myadmin/views.py" />
+        <option value="$USER_HOME$/project/django/leibie/templates/myadmin/type/index.html" />
+        <option value="$USER_HOME$/project/django/leibie/templates/myadmin/type/add.html" />
+        <option value="$USER_HOME$/project/django/leibie/templates/myadmin/base.html" />
+        <option value="$USER_HOME$/project/django/leibie/myadmin/viewsgoods.py" />
+        <option value="$USER_HOME$/project/django/leibie/myadmin/urls.py" />
+        <option value="$PROJECT_DIR$/a" />
+        <option value="$PROJECT_DIR$/UploadMulti/templates/UploadMulti/basic_upload/code.html" />
+        <option value="$PROJECT_DIR$/leibie/templates/leibie/type/edit.html" />
+        <option value="$PROJECT_DIR$/UploadOne/views.py" />
+        <option value="$PROJECT_DIR$/UploadMulti/static/UploadMulti/js/basic-upload.js" />
+        <option value="$PROJECT_DIR$/UploadMulti/templates/UploadMulti/drag_and_drop_upload/index.html" />
+        <option value="$PROJECT_DIR$/media/delete_list.txt" />
+        <option value="$PROJECT_DIR$/UploadMulti/fdfs_test.py" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/templates/includes/header.html" />
+        <option value="$PROJECT_DIR$/leibie/urls.py" />
+        <option value="$PROJECT_DIR$/UploadMulti/templates/UploadMulti/info.html" />
+        <option value="$USER_HOME$/ceshi/ceshi/settings.py" />
+        <option value="$USER_HOME$/ceshi/templates/index.html" />
+        <option value="$USER_HOME$/ceshi/app/urls.py" />
+        <option value="$USER_HOME$/ceshi/ceshi/urls.py" />
+        <option value="$USER_HOME$/ceshi/ceshi/views.py" />
+        <option value="$USER_HOME$/ceshi/templates/test2.html" />
+        <option value="$USER_HOME$/ceshi/templates/test3.html" />
+        <option value="$PROJECT_DIR$/UploadMulti/templates/UploadMulti/basic_upload/index.html" />
+        <option value="$PROJECT_DIR$/UploadMulti/templates/UploadMulti/base.html" />
+        <option value="$PROJECT_DIR$/ceshi.py" />
+        <option value="$PROJECT_DIR$/UploadMulti/static/UploadMulti/js/progress-bar-upload.js" />
+        <option value="$PROJECT_DIR$/UploadMulti/forms.py" />
+        <option value="$PROJECT_DIR$/UploadMulti/models.py" />
+        <option value="$PROJECT_DIR$/UploadMulti/urls.py" />
+        <option value="$PROJECT_DIR$/ce.py" />
+        <option value="$PROJECT_DIR$/leibie/templates/leibie/base.html" />
+        <option value="$PROJECT_DIR$/UploadMulti/views.py" />
+        <option value="$PROJECT_DIR$/leibie/form.py" />
+        <option value="$PROJECT_DIR$/leibie/models.py" />
+        <option value="$PROJECT_DIR$/leibie/views.py" />
+        <option value="$PROJECT_DIR$/leibie/templates/leibie/type/add.html" />
+        <option value="$PROJECT_DIR$/UploadMulti/templates/UploadMulti/progress_bar_upload/index.html" />
+        <option value="$PROJECT_DIR$/leibie/templates/leibie/type/index.html" />
+        <option value="$PROJECT_DIR$/uploadFiles/urls.py" />
+        <option value="$USER_HOME$/zongjiao/zongjiao/code.py" />
+        <option value="$USER_HOME$/zongjiao/pro.json" />
+        <option value="$USER_HOME$/zongjiao/aa" />
+        <option value="$PROJECT_DIR$/uploadFiles/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="75" />
+    <option name="y" value="84" />
+    <option name="width" value="1845" />
+    <option name="height" value="924" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="uploadFiles-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uploadFiles-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uploadFiles-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uploadFiles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="UploadOne" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$USER_HOME$/ceshi/app" />
+      <recent name="$PROJECT_DIR$/leibie/templates" />
+      <recent name="$PROJECT_DIR$/UploadMulti" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.ce">
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="uploadFiles-master" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration name="ce" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="uploadFiles-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ce.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ceshi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="uploadFiles-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ceshi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="debug" type="PythonConfigurationType" factoryName="Python">
+      <module name="uploadFiles-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/py35env/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="uploadFiles-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UploadMulti" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UploadMulti/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.debug" />
+      <item itemvalue="Python.views" />
+      <item itemvalue="Python.ceshi" />
+      <item itemvalue="Python.ce" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ce" />
+        <item itemvalue="Python.ceshi" />
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef066159-4119-4a6e-af78-d0dfbde27c0e" name="Default" comment="" />
+      <created>1530780373173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530780373173</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="75" y="84" width="1845" height="924" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14087632" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.502193" side_tool="true" weight="0.24723247" />
+      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32952183" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.49780703" visible="true" weight="0.51875" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3279743" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3253638" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.58451474" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32952183" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17214912" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32952183" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.24089935" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3279743" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3254818" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.58451474" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32952183" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/lib/python3.5/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="1307" selection-start-line="1307" selection-end-line="1307" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/py35env/local/lib/python3.5/site-packages/django/core/handlers/exception.py" />
+    <entry file="file://$USER_HOME$/py35env/local/lib/python3.5/site-packages/django/core/handlers/base.py" />
+    <entry file="file://$USER_HOME$/py35env/local/lib/python3.5/site-packages/django/core/handlers/wsgi.py" />
+    <entry file="file://$USER_HOME$/py35env/local/lib/python3.5/site-packages/django/contrib/staticfiles/handlers.py" />
+    <entry file="file:///usr/lib/python3.5/wsgiref/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/py35env/local/lib/python3.5/site-packages/django/core/servers/basehttp.py" />
+    <entry file="file:///usr/lib/python3.5/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="494" selection-start-line="494" selection-end-line="494" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ceshi/ceshi/settings.py" />
+    <entry file="file://$USER_HOME$/ceshi/templates/test1.html" />
+    <entry file="file://$USER_HOME$/ceshi/app/urls.py" />
+    <entry file="file://$USER_HOME$/ceshi/ceshi/urls.py" />
+    <entry file="file://$USER_HOME$/ceshi/ceshi/views.py" />
+    <entry file="file://$USER_HOME$/ceshi/templates/test2.html" />
+    <entry file="file://$USER_HOME$/ceshi/templates/test3.html" />
+    <entry file="file://$PROJECT_DIR$/UploadMulti/templates/UploadMulti/basic_upload/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1652">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceshi.py" />
+    <entry file="file://$PROJECT_DIR$/Similiarity/key_extract.py" />
+    <entry file="file://$PROJECT_DIR$/UploadMulti/static/UploadMulti/js/drag-and-drop-upload.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UploadMulti/static/UploadMulti/js/basic-upload.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UploadMulti/templates/UploadMulti/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-311">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UploadMulti/templates/UploadMulti/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UploadOne/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UploadMulti/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UploadMulti/static/UploadMulti/js/progress-bar-upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/UploadMulti/js/progress-bar-upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/photos/电商版块功能整体介绍（初级） (第6个复件).png" />
+    <entry file="file://$PROJECT_DIR$/UploadMulti/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leibie/urls.py" />
+    <entry file="file://$PROJECT_DIR$/UploadMulti/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leibie/templates/leibie/base.html" />
+    <entry file="file://$PROJECT_DIR$/UploadMulti/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leibie/form.py" />
+    <entry file="file://$USER_HOME$/zongjiao/zongjiao/spiders/qingzhen.py" />
+    <entry file="file://$USER_HOME$/zongjiao/zongjiao/names.py" />
+    <entry file="file://$PROJECT_DIR$/leibie/models.py" />
+    <entry file="file://$PROJECT_DIR$/leibie/views.py" />
+    <entry file="file://$PROJECT_DIR$/leibie/templates/leibie/type/add.html" />
+    <entry file="file://$PROJECT_DIR$/UploadMulti/templates/UploadMulti/progress_bar_upload/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leibie/templates/leibie/type/index.html" />
+    <entry file="file://$PROJECT_DIR$/UploadMulti/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1680">
+          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploadFiles/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/zongjiao/main.py" />
+    <entry file="file://$USER_HOME$/zongjiao/zongjiao/code.py" />
+    <entry file="file://$USER_HOME$/zongjiao/pro.json" />
+    <entry file="file://$USER_HOME$/zongjiao/aa" />
+    <entry file="file://$USER_HOME$/zongjiao/zongjiao/settings.py" />
+    <entry file="file://$PROJECT_DIR$/uploadFiles/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UploadOne/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-689">
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,65 @@
+{% extends 'UploadMulti/base.html' %}
+
+{% load static %}
+
+{% block title %}Basic Upload{% endblock %}
+
+{% block javascript %}
+    {# JQUERY FILE UPLOAD SCRIPTS #}
+    <script src="{% static 'js/jquery-file-upload/vendor/jquery.ui.widget.js' %}"></script>
+    <script src="{% static 'js/jquery-file-upload/jquery.iframe-transport.js' %}"></script>
+    <script src="{% static 'js/jquery-file-upload/jquery.fileupload.js' %}"></script>
+
+    {# PHOTOS PAGE SCRIPTS #}
+    <script src="{% static 'UploadMulti/js/basic-upload.js' %}"></script>
+{% endblock %}
+
+{% block photos_content %}
+<div style="margin-bottom: 20px;">
+    {# 1. BUTTON TO TRIGGER THE ACTION #}
+    <button type="button" class="btn btn-primary js-upload-photos">
+        <span class="glyphicon glyphicon-cloud-upload"></span> 上传图片
+    </button>
+    {# 2. FILE INPUT TO BE USED BY THE PLUG-IN #}
+    <input id="fileupload" type="file" name="file" multiple
+           style="display: none;"
+           data-url="{% url 'UploadMulti:basic_upload' %}"
+           data-form-data='{"csrfmiddlewaretoken": "{{ csrf_token }}"}'>
+    <!--<select class="form-control" id="numbers">-->
+    <!--<option value="codes">{{ codes }}</option>-->
+    <!--</select>-->
+</div>
+
+<!--{# 3. TABLE TO DISPLAY THE UPLOADED PHOTOS #}-->
+<table id="gallery" class="table table-bordered">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>codes</th>
+            <th>图片</th>
+            <th>视屏</th>
+            <th>名称</th>
+            <th>上传时间</th>
+            <th>操作</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        {% for photo in photos %}
+            <tr>
+                <td>{{ photo.id }}</td>
+                <td>{{ photo.codes }}</td>
+                <td><a href="{{ photo.file.url }}">{{ photo.file.name }}</a></td>
+                <td><a href="">{{ photo.file2.name }}</a></td>
+                <td>{{ photo.videoname }}</td>
+                <td>{{ photo.uploaded_at }}</td>
+                <td width="30%">
+                    <a href="{% url 'UploadMulti:type_del' photo.id %}" class="view-link">删除</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+
+{% endblock %}

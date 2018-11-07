@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/ceshi/.idea/ceshi.iml" filepath="$USER_HOME$/ceshi/.idea/ceshi.iml" />
+      <module fileurl="file://$USER_HOME$/project/django/.idea/django.iml" filepath="$USER_HOME$/project/django/.idea/django.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/uploadFiles-master.iml" filepath="$PROJECT_DIR$/.idea/uploadFiles-master.iml" />
+      <module fileurl="file://$USER_HOME$/zongjiao/.idea/zongjiao.iml" filepath="$USER_HOME$/zongjiao/.idea/zongjiao.iml" />
+    </modules>
+  </component>
+</project>
